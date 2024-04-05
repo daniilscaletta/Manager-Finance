@@ -73,11 +73,23 @@ background-color: rgb(27, 27, 27);</string>
       <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Black</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(85, 255, 127);</string>
+     <string notr="true">background-color: rgb(27, 27, 27);</string>
     </property>
     <property name="text">
      <string>MINUS</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="lbl_target">
@@ -89,11 +101,23 @@ background-color: rgb(27, 27, 27);</string>
       <height>41</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Black</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(85, 255, 127);</string>
+     <string notr="true">background-color: rgb(27, 27, 27);</string>
     </property>
     <property name="text">
-     <string>TARGET</string>
+     <string>TARGET: </string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_8">
@@ -105,17 +129,29 @@ background-color: rgb(27, 27, 27);</string>
       <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Black</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <italic>true</italic>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(85, 255, 127);</string>
+     <string notr="true">background-color: rgb(27, 27, 27);</string>
     </property>
     <property name="text">
      <string>PLUS</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>340</x>
+      <x>370</x>
       <y>200</y>
       <width>601</width>
       <height>341</height>
@@ -147,7 +183,7 @@ background-color: rgb(27, 27, 27);</string>
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>340</x>
+      <x>370</x>
       <y>150</y>
       <width>601</width>
       <height>31</height>
@@ -249,8 +285,8 @@ background-color: rgb(27, 27, 27);</string>
      <rect>
       <x>40</x>
       <y>140</y>
-      <width>101</width>
-      <height>24</height>
+      <width>151</width>
+      <height>51</height>
      </rect>
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout_4">
@@ -264,8 +300,8 @@ background-color: rgb(27, 27, 27);</string>
        </property>
        <property name="maximumSize">
         <size>
-         <width>20</width>
-         <height>16777215</height>
+         <width>30</width>
+         <height>30</height>
         </size>
        </property>
       </widget>
@@ -280,8 +316,8 @@ background-color: rgb(27, 27, 27);</string>
        </property>
        <property name="maximumSize">
         <size>
-         <width>70</width>
-         <height>20</height>
+         <width>100</width>
+         <height>30</height>
         </size>
        </property>
        <property name="styleSheet">
