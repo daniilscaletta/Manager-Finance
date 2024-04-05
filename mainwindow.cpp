@@ -13,9 +13,3 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
-
-
-void MainWindow::on_btn_seld_clicked()
-{
-    qDebug("Enetr button");
-}
