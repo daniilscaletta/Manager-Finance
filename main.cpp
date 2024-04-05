@@ -7,13 +7,11 @@
 
 int main(int argc, char *argv[])
 {
-    QApplication a(argc, argv);
-    MainWindow w;
-    ListCategories LC;
-    LC.show();
-    w.show();
+    QApplication application(argc, argv);
+    MainWindow window;
+    window.show();
 
-    return a.exec();
+    return application.exec();
 }
 
 

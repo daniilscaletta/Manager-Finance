@@ -45,7 +45,8 @@ background-color: rgb(27, 27, 27);</string>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">font: 75 14pt &quot;Source Code Pro&quot;;</string>
+    <string notr="true">font: 75 14pt &quot;Source Code Pro&quot;;
+color:rgb(255, 255, 255)</string>
    </property>
    <property name="text">
     <string>Name</string>
@@ -87,7 +88,8 @@ background-color: rgb(27, 27, 27);</string>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">font: 75 14pt &quot;Source Code Pro&quot;;</string>
+    <string notr="true">font: 75 14pt &quot;Source Code Pro&quot;;
+color:rgb(255, 255, 255)</string>
    </property>
    <property name="text">
     <string>Category</string>
@@ -116,7 +118,8 @@ background-color: rgb(27, 27, 27);</string>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">font: 75 14pt &quot;Source Code Pro&quot;;</string>
+    <string notr="true">font: 75 14pt &quot;Source Code Pro&quot;;
+color:rgb(255, 255, 255)</string>
    </property>
    <property name="text">
     <string>Price</string>
@@ -145,7 +148,8 @@ background-color: rgb(27, 27, 27);</string>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">font: 75 14pt &quot;Source Code Pro&quot;;</string>
+    <string notr="true">font: 75 14pt &quot;Source Code Pro&quot;;
+color:rgb(255, 255, 255)</string>
    </property>
    <property name="text">
     <string>Count</string>
@@ -161,7 +165,8 @@ background-color: rgb(27, 27, 27);</string>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">font: 75 14pt &quot;Source Code Pro&quot;;</string>
+    <string notr="true">font: 75 14pt &quot;Source Code Pro&quot;;
+color:rgb(255, 255, 255)</string>
    </property>
    <property name="text">
     <string>Cost</string>

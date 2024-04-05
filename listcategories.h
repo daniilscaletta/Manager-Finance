@@ -15,6 +15,7 @@ public:
     explicit ListCategories(QWidget *parent = 0);
     ~ListCategories();
 
+
 private:
     Ui::ListCategories *ui;
 };

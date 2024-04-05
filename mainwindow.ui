@@ -39,88 +39,105 @@ background-color: rgb(27, 27, 27);</string>
       <height>71</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Black</family>
+      <pointsize>26</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(255, 0, 0);</string>
+     <string notr="true">background-color: rgb(27, 27, 27);</string>
     </property>
     <property name="text">
-     <string>+- SUM</string>
+     <string>16000</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="label_9">
     <property name="geometry">
      <rect>
       <x>120</x>
-      <y>490</y>
-      <width>71</width>
-      <height>21</height>
+      <y>520</y>
+      <width>81</width>
+      <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Black</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(85, 255, 127);</string>
+     <string notr="true">background-color: rgb(27, 27, 27);</string>
     </property>
     <property name="text">
      <string>MINUS</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="lbl_target">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>440</y>
-      <width>151</width>
+      <x>30</x>
+      <y>460</y>
+      <width>171</width>
       <height>41</height>
      </rect>
     </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(85, 255, 127);</string>
-    </property>
-    <property name="text">
-     <string>TARGET</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="label_8">
-    <property name="geometry">
-     <rect>
-      <x>30</x>
-      <y>490</y>
-      <width>71</width>
-      <height>21</height>
-     </rect>
+    <property name="font">
+     <font>
+      <family>Segoe UI Black</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(85, 255, 127);</string>
+     <string notr="true">background-color: rgb(27, 27, 27);</string>
     </property>
     <property name="text">
-     <string>PLUS</string>
+     <string>TARGET:</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>400</x>
-      <y>240</y>
-      <width>541</width>
-      <height>301</height>
+      <x>360</x>
+      <y>210</y>
+      <width>651</width>
+      <height>351</height>
      </rect>
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout_3">
      <item>
       <widget class="QLabel" name="lbl_left_field">
        <property name="styleSheet">
-        <string notr="true">background-color: rgb(255, 255, 255);</string>
+        <string notr="true">background-color: rgb(155, 155, 155);</string>
        </property>
        <property name="text">
-        <string>TextLabel</string>
+        <string>LIST</string>
        </property>
       </widget>
      </item>
      <item>
       <widget class="QLabel" name="lbl_right_field">
        <property name="styleSheet">
-        <string notr="true">background-color: rgb(255, 255, 255);</string>
+        <string notr="true">background-color: rgb(155, 155, 155);</string>
        </property>
        <property name="text">
-        <string>TextLabel</string>
+        <string>LIST</string>
        </property>
       </widget>
      </item>
@@ -129,30 +146,92 @@ background-color: rgb(27, 27, 27);</string>
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>450</x>
-      <y>190</y>
-      <width>441</width>
-      <height>31</height>
+      <x>423</x>
+      <y>160</y>
+      <width>531</width>
+      <height>32</height>
      </rect>
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout_2">
      <item>
       <widget class="QLabel" name="lbl_plus">
+       <property name="minimumSize">
+        <size>
+         <width>220</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>200</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI Black</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
        <property name="styleSheet">
-        <string notr="true">background-color: rgb(85, 255, 255);</string>
+        <string notr="true">background-color: #dd1418;</string>
        </property>
        <property name="text">
-        <string>+</string>
+        <string>EXPENSES</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
        </property>
       </widget>
      </item>
      <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeType">
+        <enum>QSizePolicy::Expanding</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
       <widget class="QLabel" name="lbl_minus">
+       <property name="minimumSize">
+        <size>
+         <width>220</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>200</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Segoe UI Black</family>
+         <pointsize>14</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
        <property name="styleSheet">
-        <string notr="true">background-color: rgb(85, 255, 255);</string>
+        <string notr="true">background-color: #19cc16;</string>
        </property>
        <property name="text">
-        <string>-</string>
+        <string>DEPOSITS</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
        </property>
       </widget>
      </item>
@@ -163,8 +242,8 @@ background-color: rgb(27, 27, 27);</string>
      <rect>
       <x>40</x>
       <y>140</y>
-      <width>101</width>
-      <height>24</height>
+      <width>171</width>
+      <height>51</height>
      </rect>
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout_4">
@@ -178,8 +257,8 @@ background-color: rgb(27, 27, 27);</string>
        </property>
        <property name="maximumSize">
         <size>
-         <width>20</width>
-         <height>16777215</height>
+         <width>30</width>
+         <height>30</height>
         </size>
        </property>
       </widget>
@@ -194,8 +273,8 @@ background-color: rgb(27, 27, 27);</string>
        </property>
        <property name="maximumSize">
         <size>
-         <width>70</width>
-         <height>20</height>
+         <width>100</width>
+         <height>30</height>
         </size>
        </property>
        <property name="styleSheet">
@@ -355,6 +434,33 @@ QPushButton:hover {
       </widget>
      </item>
     </layout>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>520</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI Black</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(27, 27, 27);</string>
+    </property>
+    <property name="text">
+     <string>PLUS</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">

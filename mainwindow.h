@@ -4,6 +4,8 @@
 #include <QMainWindow>
 #include <iostream>
 #include <string>
+#include "ui_listcategories.h"
+#include "listcategories.h"
 using namespace std;
 
 namespace Ui {
@@ -18,9 +20,13 @@ public:
     ~MainWindow();
 
 private slots:
+    void on_btn_seld_clicked();
+    void on_btn_bought_clicked();
 
 private:
     Ui::MainWindow *ui;
+    ListCategories *listWindow;
+
 };
 
 #endif // MAINWINDOW_H
