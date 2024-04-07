@@ -46,6 +46,7 @@ background-color: rgb(27, 27, 27);</string>
    </property>
    <property name="styleSheet">
     <string notr="true">font: 75 14pt &quot;Source Code Pro&quot;;
+font: 87 14pt &quot;Segoe UI Black&quot;;
 color:rgb(255, 255, 255)</string>
    </property>
    <property name="text">
@@ -58,37 +59,26 @@ color:rgb(255, 255, 255)</string>
      <x>20</x>
      <y>50</y>
      <width>311</width>
-     <height>31</height>
+     <height>41</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">font: 75 11pt &quot;Times New Roman&quot;;</string>
-   </property>
-  </widget>
-  <widget class="QPlainTextEdit" name="plainTextEdit_category">
-   <property name="geometry">
-    <rect>
-     <x>20</x>
-     <y>130</y>
-     <width>311</width>
-     <height>31</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">font: 75 11pt &quot;Times New Roman&quot;;</string>
+    <string notr="true">font: 75 14pt &quot;Times New Roman&quot;;
+color: rgb(255, 255, 255);</string>
    </property>
   </widget>
   <widget class="QLabel" name="lbl_category">
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>90</y>
+     <y>100</y>
      <width>321</width>
      <height>31</height>
     </rect>
    </property>
    <property name="styleSheet">
     <string notr="true">font: 75 14pt &quot;Source Code Pro&quot;;
+font: 87 14pt &quot;Segoe UI Black&quot;;
 color:rgb(255, 255, 255)</string>
    </property>
    <property name="text">
@@ -99,56 +89,60 @@ color:rgb(255, 255, 255)</string>
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>210</y>
+     <y>220</y>
      <width>311</width>
-     <height>31</height>
+     <height>41</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">font: 75 11pt &quot;Times New Roman&quot;;</string>
+    <string notr="true">font: 75 14pt &quot;Times New Roman&quot;;
+color: rgb(255, 255, 255);</string>
    </property>
   </widget>
   <widget class="QLabel" name="lbl_price">
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>180</y>
+     <y>190</y>
      <width>321</width>
-     <height>16</height>
+     <height>21</height>
     </rect>
    </property>
    <property name="styleSheet">
     <string notr="true">font: 75 14pt &quot;Source Code Pro&quot;;
+font: 87 14pt &quot;Segoe UI Black&quot;;
 color:rgb(255, 255, 255)</string>
    </property>
    <property name="text">
-    <string>Price</string>
+    <string>Price, ₽</string>
    </property>
   </widget>
   <widget class="QPlainTextEdit" name="plainTextEdit_count">
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>290</y>
+     <y>300</y>
      <width>311</width>
-     <height>31</height>
+     <height>41</height>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">font: 75 11pt &quot;Times New Roman&quot;;</string>
+    <string notr="true">font: 75 14pt &quot;Times New Roman&quot;;
+color: rgb(255, 255, 255);</string>
    </property>
   </widget>
   <widget class="QLabel" name="lbl_count">
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>260</y>
+     <y>270</y>
      <width>321</width>
      <height>16</height>
     </rect>
    </property>
    <property name="styleSheet">
     <string notr="true">font: 75 14pt &quot;Source Code Pro&quot;;
+font: 87 14pt &quot;Segoe UI Black&quot;;
 color:rgb(255, 255, 255)</string>
    </property>
    <property name="text">
@@ -159,17 +153,18 @@ color:rgb(255, 255, 255)</string>
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>470</y>
+     <y>465</y>
      <width>321</width>
-     <height>16</height>
+     <height>21</height>
     </rect>
    </property>
    <property name="styleSheet">
     <string notr="true">font: 75 14pt &quot;Source Code Pro&quot;;
+font: 87 14pt &quot;Segoe UI Black&quot;;
 color:rgb(255, 255, 255)</string>
    </property>
    <property name="text">
-    <string>Cost</string>
+    <string>Cost, ₽</string>
    </property>
   </widget>
   <widget class="QTextEdit" name="textEdit_cost">
@@ -181,8 +176,12 @@ color:rgb(255, 255, 255)</string>
      <height>41</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">font: 87 14pt &quot;Segoe UI Black&quot;;
+color:rgb(255, 255, 255)</string>
+   </property>
   </widget>
-  <widget class="QPushButton" name="pushButton">
+  <widget class="QPushButton" name="btn_back">
    <property name="geometry">
     <rect>
      <x>100</x>
@@ -211,7 +210,7 @@ background-color: rgb(159, 0, 0);
     <string>BACK</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_2">
+  <widget class="QPushButton" name="btn_add">
    <property name="geometry">
     <rect>
      <x>100</x>
@@ -239,6 +238,31 @@ QPushButton:hover {
    </property>
    <property name="text">
     <string>ADD</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comBox_category">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>311</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>311</width>
+     <height>41</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>311</width>
+     <height>41</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: white;</string>
    </property>
   </widget>
  </widget>

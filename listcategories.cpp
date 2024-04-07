@@ -5,6 +5,8 @@ ListCategories::ListCategories(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::ListCategories)
 {
+
+
     ui->setupUi(this);
 }
 

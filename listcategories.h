@@ -15,6 +15,9 @@ public:
     explicit ListCategories(QWidget *parent = 0);
     ~ListCategories();
 
+signals:
+    void on_btn_add_clicked();
+    void on_btn_back_clicked();
 
 private:
     Ui::ListCategories *ui;

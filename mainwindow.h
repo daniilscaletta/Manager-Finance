@@ -22,6 +22,7 @@ public:
 private slots:
     void on_btn_seld_clicked();
     void on_btn_bought_clicked();
+    void returnWindow();
 
 private:
     Ui::MainWindow *ui;

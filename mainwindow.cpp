@@ -9,6 +9,8 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->setupUi(this);
 
     listWindow = new ListCategories();
+    QObject::connect(listWindow, &ListCategories::on_btn_add_clicked, this, &MainWindow::returnWindow);
+    QObject::connect(listWindow, &ListCategories::on_btn_back_clicked, this, &MainWindow::returnWindow);
 }
 
 MainWindow::~MainWindow()
@@ -26,4 +28,11 @@ void MainWindow::on_btn_bought_clicked()
 {
     listWindow->show();
     this->close();
+}
+
+
+void MainWindow::returnWindow()
+{
+    listWindow->close();
+    this->show();
 }
